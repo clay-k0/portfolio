@@ -1,0 +1,240 @@
+#projects {
+  background-color: $white-color;
+  color: $dark-blue-text;
+  margin-top: -10rem;
+  padding-top: 15rem;
+
+  .react-icon {
+    width: 3.8rem;
+    margin-right: 1rem;
+    vertical-align: middle;
+  }
+
+  .svelte-icon {
+    width: 3rem;
+    margin-right: 1.2rem;
+    vertical-align: middle;
+  }
+
+  .stack-icon {
+    width: 3.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    vertical-align: middle;
+    margin-bottom: 1.2rem;
+  }
+
+  hr {
+    margin-top: 9rem;
+  }
+
+  @include respond(tab-land) {
+    margin-top: 0;
+    padding-top: 5rem;
+  }
+
+  .project-wrapper {
+    margin-bottom: 15rem;
+
+    @include respond(phone) {
+      margin-bottom: 0rem;
+    }
+
+    .row {
+      margin-bottom: 8rem;
+
+      @include respond(phone) {
+        margin-bottom: 4rem;
+      }
+    }
+
+    &__text {
+      text-align: left;
+
+      @include respond(phone) {
+        margin-bottom: 2.5rem !important;
+      }
+
+      @include respond(tab-land) {
+        margin-bottom: 4.8rem;
+      }
+
+      &-title {
+        font-weight: bold;
+        margin-bottom: 1.8rem;
+        font-size: $mid-font-size;
+
+        @include respond(phone) {
+          font-size: 2rem;
+        }
+      }
+
+      & p > a {
+        color: $secondary-color;
+      }
+    }
+
+    &__image {
+      width: 90%;
+      margin: 0 auto;
+
+      @include respond(tab-land) {
+        width: 100%;
+        margin: 0;
+      }
+
+      & .thumbnail {
+        border: none;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.086),
+          0 3px 6px rgba(0, 0, 0, 0.086);
+        transition: all 0.2s ease-out;
+        box-shadow: rgba(0, 0, 0, 0.086) 0px 14px 28px,
+          rgba(0, 0, 0, 0.086) 0px 10px 10px;
+        margin-bottom: 8rem;
+
+        @include respond(phone) {
+          border: 1px solid $light-grey;
+          box-shadow: none;
+          margin-bottom: 3.2rem;
+        }
+      }
+    }
+  }
+
+  ul {
+    list-style: none;
+
+    & li a {
+      text-decoration: none;
+      font-size: 2.5rem;
+    }
+  }
+
+  .project-group-title {
+    position: relative;
+    font-size: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 9rem;
+    text-align: left;
+    display: flex;
+
+    margin: 0px;
+    margin-bottom: 4.5rem;
+    font-size: 3.3rem;
+    font-weight: bold;
+
+    @include respond(phone) {
+      font-size: 2.8rem;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      margin-top: 5.4rem;
+      left: 0;
+      height: 2px;
+      width: 100%;
+      background-color: $dark-blue-text;
+    }
+
+    & img {
+      width: 3.3rem;
+      margin-right: 1rem;
+      vertical-align: middle;
+    }
+  }
+
+  .notable-mentions-title {
+    font-size: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-top: 4rem;
+  }
+
+  .notable-mentions-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    padding-bottom: 10rem;
+    padding-top: 2.5rem;
+    padding-right: 2rem;
+    justify-content: center;
+  }
+
+  .card-buttons a {
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    padding: 0.8rem 1.6rem;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .card {
+    // background: #fff;
+    background: #514d7d46;
+    color: $dark-blue-text;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    height: 100%;
+    margin: 0 auto; /* Add this line */
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .card h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    transition: all 0.2s ease-in-out;
+    color: $dark-blue-text;
+  }
+
+  .card p {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .card-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+  }
+
+  .card-image {
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 210px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      opacity: 0.8;
+      transform: scale(1.01);
+    }
+  }
+
+  .project-desc-link {
+    font-size: 1.5rem;
+    color: $secondary-color;
+
+    &:hover {
+      color: #5ba2d0;
+    }
+  }
+
+  @include respond(phone) {
+    .notable-mentions-list {
+      grid-gap: 4rem;
+    }
+  }
+}

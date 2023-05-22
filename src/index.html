@@ -1,0 +1,517 @@
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <title>Clayton King | Developer</title>
+    <meta name="keywords" content="clay-k0, Clayton King, JavaScript" />
+    <meta name="description" content="Clayton King | Developer" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+  </head>
+
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hello, my name is <span class="text-color-main">Clayton King</span>
+          <br />
+          I'm an aspiring web developer
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Learn More</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                Hey there! I'm Clayton, a computer science major who is also learning web development. I'm a semester away from being a junior at Old Dominion University. I'm passionate about learning new technologies and building projects that solve real-world problems. I'm a big fan of React and Next.js, and I'm currently learning Svelte and SvelteKit.
+              </p>
+
+              <span class="d-flex mt-3 mb-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume mx-2"
+                  href="assets/resume.pdf"
+                >
+                  View Resume
+                </a>
+                <a class="cta-btn cta-btn--projects mx-2" href="#projects">
+                  View Projects
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+          <!-- <h3 class="project-group-title section-title">
+            <img class="react-icon" src="./assets/icons/react-icon.svg" alt="React Icon"/>
+            React/Next.js
+          </h3> -->
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Face Finder</h3>
+                <div>
+                  <p class="mb-4">
+                    Face Finder is a web application deployed on render that allows users to detect
+                    faces in images using the Clarifai API. Users can register,
+                    sign in, and upload images to the app. After submitting an
+                    image, the app displays a box around each of the faces it
+                    finds. It uses a PostgreSQL database to store user
+                    information, and the backend is built with Node.js and
+                    Express.
+                  </p>
+                  <h1 class="pt-3 pb-4">Tech Stack</h1>
+                  <div class="flex justify-center items-center pb-4">
+                    <a href="https://react.dev/" target="_blank" rel="noreferrer" title="React">
+                      <img class="stack-icon pb-4" src="./assets/icons/react-icon.svg" alt="React Icon"/>
+                    </a>
+                    <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer" title="PostgreSQL">
+                      <img class="stack-icon pb-4" src="./assets/icons/postgres-icon.svg" alt="PostgreSQL Icon"/>
+                    </a>
+                    <a href="https://nodejs.org/en" target="_blank" rel="noreferrer" title="Node.js">
+                      <img class="stack-icon pb-4" src="./assets/icons/nodejs-icon.svg" alt="Node.js Icon"/>
+                    </a>
+                    <a href="https://expressjs.com/" target="_blank" rel="noreferrer" title="Express.js">
+                      <img class="stack-icon pb-4" src="./assets/icons/express-icon.svg" alt="Express.js Icon"/>
+                    </a>
+                  </div>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://face-finder-frontend.onrender.com/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/clay-k0/Face-Finder"
+                >
+                  Source Code
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                </i>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://face-finder-frontend.onrender.com/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/face-finder-screenshot.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Memento</h3>
+                <div>
+                  <p class="mb-4">
+                    This React-based memory matching game is deployed on Firebase. Players click on two cards to reveal their images, and if the images match, the cards remain face up. If the images do not match, the cards are
+                    flipped back over, and the player must try again.The game continues until all cards have been matched. The app is PWA-ready and includes a badge that tracks the user's wins.
+                  </p>
+                  <h1 class="pt-3 pb-4">Tech Stack</h1>
+                  <div class="flex justify-center items-center pb-3">
+                    <a href="https://react.dev/" target="_blank" rel="noreferrer" title="React">
+                      <img class="stack-icon pb-4" src="./assets/icons/react-icon.svg" alt="React Icon"/>
+                    </a>
+                    <a href="https://firebase.google.com/" target="_blank" rel="noreferrer" title="Firebase">
+                      <img class="stack-icon pb-4 p-1" src="./assets/icons/firebase-icon.svg" alt="Firebase Icon"/>
+                    </a>
+                  </div>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://memento-d6cac.web.app/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/clay-k0/memento"
+                >
+                  Source Code
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://memento-d6cac.web.app/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/memento-screenshot.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Netflix Clone</h3>
+                <div>
+                  <p class="mb-4">
+                    This is a Netflix clone built with Next.js. It leverages the
+                    use of Tailwind, Prisma, MongoDB, as well as NextAuth for
+                    authentication. The app is deployed on Vercel, and the
+                    database is hosted on MongoDB Atlas.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://clayk0-nf-project.vercel.app/auth"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/clay-k0/netflix-clone"
+                >
+                  Source Code
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://clayk0-nf-project.vercel.app/auth"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/netflix-clone-screenshot.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <h3 class="project-group-title section-title">
+          <img class="svelte-icon" src="./assets/icons/svelte-icon.png" alt="Svelte Icon"/>
+          Svelte/SvelteKit
+        </h3> -->
+      <hr />
+      <div>
+        <h1 class="notable-mentions-title">OTHER NOTABLE MENTIONS</h1>
+        <ul class="notable-mentions-list">
+          <li>
+            <div class="card">
+              <h1>RoboFriends</h1>
+              <a href="http://clay-k0.github.io/RoboFriends-App/">
+                <img
+                  class="card-image"
+                  src="./assets/robo-friends-screenshot.png"
+                  alt="Project Image"
+              /></a>
+              <p>
+                This is a simple React project that dynamically displays a
+                set of robot cards. Users can search for certain robots using
+                their names, email addresses, or usernames. The application
+                retrieves robot data from a
+                <a
+                  class="project-desc-link"
+                  href="https://jsonplaceholder.typicode.com/users"
+                  >jsonplaceholder API.</a
+                >
+              </p>
+              <div class="card-buttons">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="notable-mentions-live-btn"
+                  href="https://clay-k0.github.io/RoboFriends-App/"
+                  >See Live</a
+                >
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="notable-mentions-source-btn"
+                  href="https://github.com/clay-k0/RoboFriends-App"
+                  >
+                  Source Code
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                </a
+                >
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h1>Instaquote</h1>
+              <a href="https://clay-k0.github.io/insta-quote/">
+                <img
+                  class="card-image"
+                  src="./assets/insta-quote-screenshot.png"
+                  alt="Project Image"
+                />
+              </a>
+              <p>
+                This is a React-based project that generates quotes with a
+                simple click. Utilizing the
+                <a class="project-desc-link" href="https://type.fit/api/quotes"
+                  >type.fit quote API</a
+                >, the application fetches a collection of quotes from various
+                authors. The project also includes a Twitter sharing feature
+                that allows users to share quotes on their Twitter feed.
+              </p>
+              <div class="card-buttons">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="notable-mentions-live-btn"
+                  href="https://clay-k0.github.io/insta-quote/"
+                  >See Live</a
+                >
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="notable-mentions-source-btn"
+                  href="https://github.com/clay-k0/insta-quote"
+                  >
+                  Source Code
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h1>Project 3</h1>
+              <a href="">
+                <img
+                  class="card-image"
+                  src="./assets/insta-quote-screenshot.png"
+                  alt="Project Image"
+                />
+              </a>
+              <p>
+                This is a React-based project that generates quotes with a
+                simple click. Utilizing the
+                <a class="project-desc-link" href="https://type.fit/api/quotes"
+                  >type.fit quote API</a
+                >, the application fetches a collection of quotes from various
+                authors. The project also includes a Twitter sharing feature
+                that allows users to share quotes on their Twitter feed.
+              </p>
+              <div class="card-buttons">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="notable-mentions-live-btn"
+                  href="!#"
+                  >See Live</a
+                >
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="notable-mentions-source-btn"
+                  href="https://github.com/clay-k0/"
+                  >
+                  Source Code
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h1>Project 4</h1>
+              <a href="http://clay-k0.github.io/RoboFriends-App/">
+                <img
+                  class="card-image"
+                  src="./assets/insta-quote-screenshot.png"
+                  alt="Project Image"
+                />
+              </a>
+              <p>
+                This is a React-based project that generates quotes with a
+                simple click. Utilizing the
+                <a class="project-desc-link" href="https://type.fit/api/quotes"
+                  >type.fit quote API</a
+                >, the application fetches a collection of quotes from various
+                authors. The project also includes a Twitter sharing feature
+                that allows users to share quotes on their Twitter feed.
+              </p>
+              <div class="card-buttons">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="notable-mentions-live-btn"
+                  href="!#"
+                  >See Live</a
+                >
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="notable-mentions-source-btn"
+                  href="https://github.com/clay-k0/"
+                >
+                Source Code
+                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title mb-6">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">
+            Feel free to get in touch with me!
+          </p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:claytonking03@gmail.com"
+            >Email Me</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top" title="Back To Top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/clayton-king-8707a7270/"
+            target="_blank"
+          >
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/clay-k0" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <p class="footer__text">
+          © 2023 -
+          <a rel="noreferrer" href="https://github.com/clay-k0" target="_blank"
+            >Clayton King</a
+          >
+        </p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
