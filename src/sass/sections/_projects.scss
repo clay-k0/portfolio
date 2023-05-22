@@ -1,6 +1,6 @@
 #projects {
   background-color: $white-color;
-  color: $dark-blue-text;
+  color: $header-text;
   margin-top: -10rem;
   padding-top: 15rem;
 
@@ -70,7 +70,7 @@
       }
 
       & p > a {
-        color: $secondary-color;
+        color: $blue-v2;
       }
     }
 
@@ -134,7 +134,7 @@
       left: 0;
       height: 2px;
       width: 100%;
-      background-color: $dark-blue-text;
+      background-color: $header-text;
     }
 
     & img {
@@ -146,9 +146,8 @@
 
   .notable-mentions-title {
     font-size: 4rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    margin-top: 4rem;
+    margin-bottom: 6rem;
+    margin-top: 8rem;
   }
 
   .notable-mentions-list {
@@ -173,7 +172,7 @@
   .card {
     // background: #fff;
     background: #514d7d46;
-    color: $dark-blue-text;
+    color: $header-text;
     border-radius: 10px;
     padding: 1rem;
     text-align: center;
@@ -182,13 +181,14 @@
     position: relative;
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-width: 375px;
   }
 
   .card h1 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
     transition: all 0.2s ease-in-out;
-    color: $dark-blue-text;
+    color: $header-text;
   }
 
   .card p {
@@ -225,7 +225,7 @@
 
   .project-desc-link {
     font-size: 1.5rem;
-    color: $secondary-color;
+    color: $blue-v2;
 
     &:hover {
       color: #5ba2d0;

@@ -64,4 +64,11 @@ export const targetElements = [
       origin: "bottom",
     },
   },
+  {
+    element: ".notable-mentions-list",
+    animation: {
+      delay: 800,
+      origin: "bottom",
+    },
+  },
 ];
