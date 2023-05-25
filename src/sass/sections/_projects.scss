@@ -1,5 +1,5 @@
 #projects {
-  background-color: $white-color;
+  background-color: $background-color;
   color: $header-text;
   margin-top: -10rem;
   padding-top: 15rem;
@@ -20,12 +20,11 @@
     width: 3.5rem;
     margin-right: 1rem;
     margin-left: 1rem;
-    vertical-align: middle;
     margin-bottom: 1.2rem;
     transition: all 0.2s ease-in-out;
 
     &:hover {
-      transform: scale(1.1);
+      transform: scale(1.08);
     }
   }
 
@@ -75,7 +74,7 @@
       }
 
       & p > a {
-        color: $blue-v2;
+        color: $purple-color;
       }
     }
 
@@ -232,6 +231,7 @@
     font-size: 1.5rem;
     color: $blue-v2;
     opacity: 0.8;
+    transition: all 0.3s ease-in-out;
 
     &:hover {
       opacity: 1;
