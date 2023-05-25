@@ -22,6 +22,11 @@
     margin-left: 1rem;
     vertical-align: middle;
     margin-bottom: 1.2rem;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 
   hr {
