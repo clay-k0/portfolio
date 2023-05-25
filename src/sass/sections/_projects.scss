@@ -231,9 +231,10 @@
   .project-desc-link {
     font-size: 1.5rem;
     color: $blue-v2;
+    opacity: 0.8;
 
     &:hover {
-      color: #5ba2d0;
+      opacity: 1;
     }
   }
 

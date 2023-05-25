@@ -8,6 +8,17 @@
   z-index: 1;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
 
+  & i {
+    opacity: 0;
+    transition: opacity 0.15s;
+  }
+
+  &:hover {
+    & i {
+      opacity: 1;
+    }
+  }
+
   &::after {
     content: "";
     display: block;
@@ -102,11 +113,6 @@
   }
 }
 
-/* Arrow Button */
-// .up i {
-//   color: #272727;
-// }
-
 .notable-mentions-live-btn {
   display: inline-block;
   position: relative;
@@ -166,9 +172,18 @@
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
   }
 
+  & i {
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
   &:hover {
     transform: translateX(2px);
     color: #ffffff;
+
+    & i {
+      opacity: 1;
+    }
   }
 
   @include respond(phone) {
