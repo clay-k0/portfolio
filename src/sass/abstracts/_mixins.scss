@@ -75,7 +75,7 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
 }
 
 @mixin supportIE11 {
-  // Provide your basic styles to support IE11
+  // Basic styles to support IE11
   @media screen and (-ms-high-contrast: active),
     screen and (-ms-high-contrast: none) {
     @content;

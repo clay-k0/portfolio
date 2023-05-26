@@ -1,4 +1,3 @@
-/* Call to Action Button */
 .cta-btn {
   display: inline-block;
   position: relative;
@@ -33,7 +32,6 @@
   }
 }
 
-/* Hero Style */
 .cta-btn--hero {
   @include supportColorForIE11();
   border: 2px solid transparent;
@@ -79,7 +77,6 @@
   }
 }
 
-/* Resume Style */
 .cta-btn--resume {
   color: $background-color;
   background: $header-text;
@@ -99,7 +96,6 @@
   }
 }
 
-/* Projects Style */
 .cta-btn--projects {
   color: $background-color;
   background: $header-text;
@@ -198,7 +194,7 @@
 
   @include respond(phone) {
     background-image: none;
-    -webkit-text-fill-color: $purple-color;
+    -webkit-text-fill-color: $header-text;
   }
 
   &.cta-btn--hero {
