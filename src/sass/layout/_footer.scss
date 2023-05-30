@@ -1,6 +1,7 @@
 .footer {
   // background-color: $dark-grey;
-  background: #222037;
+  // background: #222037;
+  background: $background-color;
   color: $background-color;
   padding: 4.8rem 0;
 
@@ -17,8 +18,8 @@
       font-size: 1.3rem;
       transition: all 0.4s;
       display: inline-block;
-      color: #8bfacc;
-      background-image: linear-gradient(to right, #8bfacc, #8bfacc);
+      color: $mint-color;
+      background-image: linear-gradient(to right, $mint-color, $mint-color);
 
       background-size: 0% 2px;
       background-position: 0 100%;
@@ -26,7 +27,7 @@
 
       &:hover,
       &:active {
-        text-shadow: 0 0 7px #8bfacc;
+        text-shadow: 0 0 7px $mint-color;
         background-size: 100% 2px;
       }
     }
@@ -36,7 +37,7 @@
     margin: 1rem auto;
     border: 0;
     width: 50%;
-    border-top: 2px solid #8d87cd;
+    border-top: 2px solid #686868;
     margin-top: 2rem;
     margin-bottom: 3rem;
   }
@@ -72,5 +73,6 @@
 
   &:hover {
     transform: translateY(-2px);
+    opacity: 0.6;
   }
 }

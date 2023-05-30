@@ -45,7 +45,7 @@ a:hover {
   // Responsive text purple style
   @include respond(phone) {
     background-image: none;
-    -webkit-text-fill-color: $purple-color;
+    -webkit-text-fill-color: $mint-color;
   }
 
   &:hover {
