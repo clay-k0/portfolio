@@ -42,7 +42,6 @@ a:hover {
 .text-color-main {
   @include supportColorForIE11();
 
-  // Responsive text purple style
   @include respond(phone) {
     background-image: none;
     -webkit-text-fill-color: $mint-color;

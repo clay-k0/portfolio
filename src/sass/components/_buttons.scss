@@ -6,7 +6,6 @@
   line-height: 1;
   z-index: 1;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
-  border-radius: 0.3rem;
 
   & i {
     opacity: 0;
@@ -80,11 +79,10 @@
 
   &::after {
     background: $mint-color;
-    border-radius: 0.3rem;
   }
 
   &:hover {
-    color: $background-color;
+    color: #fff;
     text-decoration: none;
 
     &::after {
@@ -100,11 +98,10 @@
 
   &::after {
     background: $mint-color;
-    border-radius: 0.3rem;
   }
 
   &:hover {
-    color: $background-color;
+    color: #fff;
     text-decoration: none;
 
     &::after {
@@ -122,11 +119,7 @@
   z-index: 1;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
   border: 2px solid transparent;
-  border-image: linear-gradient(
-    62deg,
-    $background-color 0%,
-    $background-color 100%
-  );
+  border-image: linear-gradient(62deg, #2b2b2b 0%, #212121 100%);
   border-image-slice: 1;
   color: $header-text;
 
@@ -140,11 +133,7 @@
     bottom: 0;
     z-index: -1;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
-    background-image: linear-gradient(
-      62deg,
-      $background-color,
-      $background-color 100%
-    );
+    background-image: linear-gradient(62deg, #2b2b2b, #212121 100%);
   }
 
   &:hover {
