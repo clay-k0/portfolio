@@ -3,6 +3,10 @@
   color: $header-text;
   padding-top: 10rem;
 
+  p {
+    color: #a1a1aa;
+  }
+
   hr {
     margin: 1rem auto;
     border: 0;
@@ -164,11 +168,11 @@
     list-style: none;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
-    grid-gap: 2rem;
+    grid-gap: 3rem;
     padding: 2.5rem;
     justify-content: center;
     padding-bottom: 12rem;
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 0 auto;
 
     @media (max-width: 900px) {
@@ -185,7 +189,8 @@
   }
 
   .card {
-    background: linear-gradient(135deg, #111111, #1a1a1a, #111111);
+    // background: linear-gradient(135deg, #111111, #1a1a1a, #111111);
+    background: transparent;
     color: #ffffff;
     padding: 1rem;
     height: 100%;
@@ -197,7 +202,7 @@
     width: 100%;
     margin-bottom: 3rem;
     border: 2px solid;
-    border-image: linear-gradient(135deg, #2c2c2c, #2b2b2b);
+    border-image: linear-gradient(135deg, #2b2b31, #26262b);
     border-image-slice: 1;
     transition: all 0.4s ease-in-out;
 

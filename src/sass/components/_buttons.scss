@@ -6,6 +6,7 @@
   line-height: 1;
   z-index: 1;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+  border-radius: 0.5rem;
 
   & i {
     opacity: 0;
@@ -16,6 +17,7 @@
       opacity: 1;
       transition: opacity 0.16s;
     }
+    border-radius: 0.5rem;
   }
 
   &::after {
@@ -73,16 +75,20 @@
 }
 
 .cta-btn--resume {
-  color: #fff;
-  background: #393939;
+  color: $header-text;
+  background: #242427;
   padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
 
   &::after {
-    background: #2a2a2a;
+    // background: #2a2a2a;
+    opacity: 0.8;
+    border-radius: 0.5rem;
   }
 
   &:hover {
     color: #e0e0e0;
+    opacity: 0.8;
     text-decoration: none;
 
     &::after {
@@ -92,16 +98,20 @@
 }
 
 .cta-btn--projects {
-  color: #fff;
-  background: #393939;
+  color: $header-text;
+  background: #242427;
   padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
 
   &::after {
-    background: #2a2a2a;
+    // background: #2a2a2a;
+    opacity: 0.8;
+    border-radius: 0.5rem;
   }
 
   &:hover {
     color: #e0e0e0;
+    opacity: 0.8;
     text-decoration: none;
 
     &::after {
@@ -119,7 +129,7 @@
   z-index: 1;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
   border: 2px solid transparent;
-  border-image: linear-gradient(62deg, #2b2b2b 0%, #212121 100%);
+  // border-image: linear-gradient(62deg, $header-text 0%, $header-text 100%);
   border-image-slice: 1;
   color: $header-text;
 
@@ -133,11 +143,12 @@
     bottom: 0;
     z-index: -1;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
-    background-image: linear-gradient(62deg, #2b2b2b, #212121 100%);
+    background-image: linear-gradient(62deg, $header-text, $header-text 100%);
+    border-radius: 0.5rem;
   }
 
   &:hover {
-    -webkit-text-fill-color: $mint-color;
+    -webkit-text-fill-color: $background-color;
     text-decoration: none;
     color: #ffffff;
 
@@ -176,7 +187,7 @@
 
   &:hover {
     transform: translateX(2px);
-    color: $mint-color;
+    color: #c9c9c9;
 
     & i {
       opacity: 1;
@@ -186,37 +197,5 @@
   @include respond(phone) {
     background-image: none;
     -webkit-text-fill-color: $header-text;
-  }
-
-  &.cta-btn--hero {
-    @include supportColorForIE11();
-    border: 2px solid transparent;
-    border-image: linear-gradient(
-      62deg,
-      $background-color 0%,
-      $background-color 100%
-    );
-    border-image-slice: 1;
-
-    &::after {
-      background-image: linear-gradient(
-        62deg,
-        $background-color 0%,
-        $background-color 100%
-      );
-    }
-
-    &:hover {
-      -webkit-text-fill-color: #fff;
-      text-decoration: none;
-
-      @include respond(phone) {
-        -webkit-text-fill-color: $mint-color;
-      }
-
-      &::after {
-        width: 100%;
-      }
-    }
   }
 }
