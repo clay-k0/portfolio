@@ -3,6 +3,10 @@
   color: $header-text;
   padding-top: 10rem;
 
+  @media screen and (min-width: 1200px) {
+    padding-top: 25px;
+  }
+
   p {
     color: #a1a1aa;
   }
