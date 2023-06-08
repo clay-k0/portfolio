@@ -15,6 +15,10 @@
   padding-bottom: 33rem;
   padding-top: 10rem;
 
+  @include respond(phone) {
+    padding-bottom: 107rem;
+  }
+
   p {
     color: #a1a1aa;
   }
