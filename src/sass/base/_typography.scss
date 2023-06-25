@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=JetBrains+Mono:400,700");
 
 h1 {
   font-weight: 700;
@@ -6,7 +6,7 @@ h1 {
 
 p,
 a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "JetBrains Mono", sans-serif;
   font-size: $default-font-size;
 }
 
@@ -27,8 +27,8 @@ a:hover {
   margin-bottom: 10rem;
   font-size: $big-font-size;
   font-weight: bold;
-  text-transform: uppercase;
   padding-top: 2rem;
+  pointer-events: none;
 
   @include respond(phone) {
     font-size: 2.8rem;
@@ -44,7 +44,20 @@ a:hover {
 
   @include respond(phone) {
     background-image: none;
-    -webkit-text-fill-color: $mint-color;
+    -webkit-text-fill-color: $accent-color;
+  }
+
+  &:hover {
+    transform: translateX(2px);
+  }
+}
+
+.text-color-secondary {
+  @include supportColorForIE11();
+
+  @include respond(phone) {
+    background-image: none;
+    -webkit-text-fill-color: #fffbf8;
   }
 
   &:hover {

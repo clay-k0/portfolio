@@ -8,6 +8,21 @@ export const defaultProps = {
 
 export const targetElements = [
   {
+    element: ".github-icon",
+    animation: {
+      delay: 1000,
+      origin: window.innerWidth > 768 ? "left" : "bottom",
+    },
+  },
+  {
+    element: ".navbar",
+    animation: {
+      delay: 500,
+      distance: "0px",
+      origin: "bottom",
+    },
+  },
+  {
     element: ".section-title",
     animation: {
       delay: 300,

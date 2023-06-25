@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Jetbrains Mono", sans-serif;
   text-align: center;
   // background: #222037;
   background: $background-color;
@@ -17,4 +17,8 @@ body {
 html,
 body {
   scroll-behavior: smooth !important;
+
+  &::selection {
+    background: #a58bfca5;
+  }
 }

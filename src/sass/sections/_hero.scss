@@ -4,7 +4,6 @@
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $background-color;
 
   font-weight: 400;
   color: $header-text;
@@ -21,10 +20,11 @@
   }
 
   .hero-title {
-    font-size: 5.6rem;
-    font-weight: 700;
+    font-size: 5.5rem;
+    font-weight: 400;
     margin-bottom: 4rem;
     text-align: left;
+    pointer-events: none;
 
     @include respond(tab-land) {
       font-size: 4rem;

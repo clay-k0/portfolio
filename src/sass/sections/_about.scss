@@ -1,26 +1,23 @@
 #about {
-  // background-color: $blue-v1;
-  // background-image: linear-gradient(
-  //   62deg,
-  //   $blue-v1 0%,
-  //   $mint-color 100%
-  // );
-  background: #121214;
+  background: #17022f;
+  // background: #121214;
   // background: #514d7d46;
   height: auto;
   color: $header-text;
   border-top: 0px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  padding-bottom: 33rem;
+  padding-bottom: 28rem;
   padding-top: 10rem;
 
   @include respond(phone) {
-    padding-bottom: 107rem;
+    padding-bottom: 118rem;
   }
 
   p {
-    color: #a1a1aa;
+    color: #c6bbd8;
+    text-transform: lowercase;
+    pointer-events: none;
   }
 
   @include respond(tab-land) {
@@ -71,7 +68,7 @@
         }
 
         &--important {
-          background: darken($mint-color, 1%);
+          background: darken($accent-color, 1%);
           display: inline-block;
           font-style: italic;
           padding: 0 0.3rem;

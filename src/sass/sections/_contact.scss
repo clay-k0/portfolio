@@ -1,11 +1,11 @@
 #contact {
   // background: #514d7d46;
-  background: #121214;
+  background: #17022f;
   color: $header-text;
   // background-image: linear-gradient(
   //   62deg,
   //   $blue-v1 0%,
-  //   $mint-color 100%
+  //   $accent-color 100%
   // );
   -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
@@ -13,7 +13,12 @@
   margin-top: -10rem;
 
   p {
-    color: #a1a1aa;
+    color: #c6bbd8;
+    pointer-events: none;
+  }
+
+  h2 {
+    margin-bottom: 7rem;
   }
 
   @include respond(tab-land) {
