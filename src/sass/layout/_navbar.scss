@@ -10,22 +10,32 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 7rem;
+
+  & ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  & li {
+    margin-right: 17px;
+
+    & a {
+      color: $header-text;
+      text-decoration: none;
+      padding: 10px;
+
+      &:hover {
+        color: $accent-color;
+      }
+    }
+  }
 }
 
 .navbar.navbar-solid {
   background-color: #0b0119e6;
   border-bottom: #a58bfc61 solid 1px;
-}
-
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.navbar li {
-  margin-right: 17px;
 }
 
 .site-logo {
@@ -35,20 +45,6 @@
   color: $header-text;
   font-size: 3.2em;
   margin-left: 10px;
-}
-
-.site-logo:hover {
-  color: $header-text;
-}
-
-.navbar li a {
-  color: $header-text;
-  text-decoration: none;
-  padding: 10px;
-}
-
-.navbar li a:hover {
-  color: $accent-color;
 }
 
 .github-icon {
@@ -61,10 +57,10 @@
   color: $header-text;
   text-decoration: none;
   transition: transform 0.2s ease-in-out;
-}
 
-.github-icon:hover {
-  transform: translateY(-4px);
+  &:hover {
+    transform: translateY(-4px);
+  }
 }
 
 @media (max-width: 768px) {
