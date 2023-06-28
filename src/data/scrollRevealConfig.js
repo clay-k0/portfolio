@@ -22,14 +22,14 @@ export const targetElements = [
       origin: "bottom",
     },
   },
-  {
-    element: ".section-title",
-    animation: {
-      delay: 300,
-      distance: "0px",
-      origin: "bottom",
-    },
-  },
+  // {
+  //   element: ".section-title",
+  //   animation: {
+  //     delay: 300,
+  //     distance: "0px",
+  //     origin: "bottom",
+  //   },
+  // },
   {
     element: ".hero-title",
     animation: {
@@ -44,46 +44,46 @@ export const targetElements = [
       origin: window.innerWidth > 768 ? "left" : "bottom",
     },
   },
-  {
-    element: ".about-wrapper__image",
-    animation: {
-      delay: 600,
-      origin: "bottom",
-    },
-  },
-  {
-    element: ".about-wrapper__info",
-    animation: {
-      delay: 1000,
-      origin: window.innerWidth > 768 ? "left" : "bottom",
-    },
-  },
-  {
-    element: ".project-wrapper__text",
-    animation: {
-      delay: 500,
-      origin: window.innerWidth > 768 ? "left" : "bottom",
-    },
-  },
-  {
-    element: ".project-wrapper__image",
-    animation: {
-      delay: 1000,
-      origin: window.innerWidth > 768 ? "right" : "bottom",
-    },
-  },
-  {
-    element: ".contact-wrapper",
-    animation: {
-      delay: 800,
-      origin: "bottom",
-    },
-  },
-  {
-    element: ".notable-mentions-list",
-    animation: {
-      delay: 800,
-      origin: "bottom",
-    },
-  },
+  // {
+  //   element: ".about-wrapper__image",
+  //   animation: {
+  //     delay: 600,
+  //     origin: "bottom",
+  //   },
+  // },
+  // {
+  //   element: ".about-wrapper__info",
+  //   animation: {
+  //     delay: 1000,
+  //     origin: window.innerWidth > 768 ? "left" : "bottom",
+  //   },
+  // },
+  // {
+  //   element: ".project-wrapper__text",
+  //   animation: {
+  //     delay: 500,
+  //     origin: window.innerWidth > 768 ? "left" : "bottom",
+  //   },
+  // },
+  // {
+  //   element: ".project-wrapper__image",
+  //   animation: {
+  //     delay: 1000,
+  //     origin: window.innerWidth > 768 ? "right" : "bottom",
+  //   },
+  // },
+  // {
+  //   element: ".contact-wrapper",
+  //   animation: {
+  //     delay: 800,
+  //     origin: "bottom",
+  //   },
+  // },
+  // {
+  //   element: ".notable-mentions-list",
+  //   animation: {
+  //     delay: 800,
+  //     origin: "bottom",
+  //   },
+  // },
 ];
