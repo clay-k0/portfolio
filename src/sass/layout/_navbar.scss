@@ -19,12 +19,13 @@
   }
 
   & li {
-    margin-right: 17px;
+    margin-right: 3.3rem;
 
     & a {
       color: $header-text;
       text-decoration: none;
       padding: 10px;
+      transition: color 0.3s ease-in-out;
 
       &:hover {
         color: $accent-color;
@@ -34,8 +35,8 @@
 }
 
 .navbar.navbar-solid {
-  background-color: #0b0119e6;
-  border-bottom: #a58bfc61 solid 1px;
+  background-color: #f9f9f9e8;
+  border-bottom: #41414226 solid 2px;
 }
 
 .site-logo {
@@ -43,11 +44,11 @@
   padding: 10px;
   text-decoration: none;
   color: $header-text;
-  font-size: 3.2em;
+  font-size: 3.5em;
   margin-left: 10px;
 
   &:hover {
-    color: $header-text;
+    color: inherit;
   }
 }
 
@@ -77,21 +78,4 @@
   .github-icon {
     display: none;
   }
-}
-
-@keyframes typing {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-.typing-effect::after {
-  content: "|";
-  animation: typing 1s infinite;
 }

@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: "Jetbrains Mono", sans-serif;
+  font-family: "DM Sans", sans-serif;
   text-align: center;
   // background: #222037;
   background: $background-color;
@@ -19,6 +19,6 @@ body {
   scroll-behavior: smooth !important;
 
   &::selection {
-    background: #a58bfca5;
+    background: #58688b4d;
   }
 }

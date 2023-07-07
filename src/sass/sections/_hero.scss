@@ -15,6 +15,10 @@
   right: 0;
   z-index: -1;
 
+  span {
+    font-weight: 700;
+  }
+
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }

@@ -12,37 +12,32 @@
   &__text {
     // color: darken($background-color, 50%);
     color: $header-text;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     pointer-events: none;
 
     a {
-      font-size: 1.3rem;
+      font-size: 1.6rem;
       transition: all 0.4s;
       display: inline-block;
-      color: #ee867b;
-      background-image: linear-gradient(to right, #ee867b, #ee867b);
+      color: $accent-color;
       pointer-events: all;
-
-      background-size: 0% 2px;
-      background-position: 0 100%;
-      background-repeat: no-repeat;
 
       &:hover,
       &:active {
-        text-shadow: 0 0 7px #ee867b;
         background-size: 100% 2px;
+        text-decoration: underline;
       }
     }
   }
 
-  & hr {
-    margin: 1rem auto;
-    border: 0;
-    width: 50%;
-    border-top: 2px solid #877aa49a;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-  }
+  // & hr {
+  //   margin: 1rem auto;
+  //   border: 0;
+  //   width: 50%;
+  //   border-top: 2px solid #877aa49a;
+  //   margin-top: 2rem;
+  //   margin-bottom: 3rem;
+  // }
 }
 
 // .social-links {
@@ -68,7 +63,7 @@
 // }
 
 .back-to-top i {
-  color: $accent-color;
+  color: $header-text;
   // color: #f8d2c9;
   margin: 1rem 0 $default-font-size;
   transition: all 0.2s ease-in;
