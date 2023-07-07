@@ -10,7 +10,7 @@ export const targetElements = [
   {
     element: ".github-icon",
     animation: {
-      delay: 1680,
+      delay: 1700,
       origin: "left",
     },
   },
@@ -18,24 +18,16 @@ export const targetElements = [
     element: ".nav-items",
     animation: {
       delay: 1350,
-      origin: window.innerWidth > 768 ? "top" : "bottom",
+      origin: "top",
     },
   },
   {
     element: ".site-logo",
     animation: {
       delay: 1000,
-      origin: window.innerWidth > 768 ? "top" : "bottom",
+      origin: "top",
     },
   },
-  // {
-  //   element: ".section-title",
-  //   animation: {
-  //     delay: 300,
-  //     distance: "0px",
-  //     origin: "bottom",
-  //   },
-  // },
   {
     element: ".hero-title",
     animation: {
