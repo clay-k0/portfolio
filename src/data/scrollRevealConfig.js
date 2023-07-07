@@ -10,16 +10,15 @@ export const targetElements = [
   {
     element: ".github-icon",
     animation: {
-      delay: 2000,
+      delay: 1500,
       origin: "left",
     },
   },
   {
-    element: ".navbar",
+    element: ".nav-items",
     animation: {
-      delay: 500,
-      distance: "0px",
-      origin: "bottom",
+      delay: 1200,
+      origin: window.innerWidth > 768 ? "top" : "bottom",
     },
   },
   {
@@ -47,7 +46,7 @@ export const targetElements = [
   {
     element: ".hero-cta",
     animation: {
-      delay: 1500,
+      delay: 2000,
       origin: window.innerWidth > 768 ? "left" : "bottom",
     },
   },
