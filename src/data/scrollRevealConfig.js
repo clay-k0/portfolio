@@ -10,7 +10,7 @@ export const targetElements = [
   {
     element: ".github-icon",
     animation: {
-      delay: 1500,
+      delay: 1680,
       origin: "left",
     },
   },
