@@ -17,7 +17,7 @@ export const targetElements = [
   {
     element: ".nav-items",
     animation: {
-      delay: 1200,
+      delay: 1350,
       origin: window.innerWidth > 768 ? "top" : "bottom",
     },
   },
