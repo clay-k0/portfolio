@@ -6,7 +6,7 @@
   border-top: 0px;
   // -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   // clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  padding-bottom: 15vw;
+  padding-bottom: 10vw;
   padding-top: 10vw;
 
   @include respond(tab-land) {
@@ -20,6 +20,10 @@
     color: #606060;
     pointer-events: none;
     font-size: 2rem !important;
+  }
+
+  img {
+    border-radius: 100%;
   }
 
   .link {
