@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
-    <title>Clayton King | Web Developer</title>
+    <title>Clayton King</title>
     <meta name="keywords" content="clay-k0, Clayton King, Developer" />
     <meta name="description" content="Clayton King Portfolio" />
 
@@ -15,10 +15,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="styles.scss" />
-    <script
-      defer
-      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
-    ></script>
+    <!-- <script -->
+    <!--   defer -->
+    <!--   src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js" -->
+    <!-- ></script> -->
   </head>
 
   <body>
@@ -26,7 +26,7 @@
 
   <body>
     <div class="navbar">
-      <a href="/" class="site-logo">ck.</a>
+      <a href="/" class="site-logo">ck</a>
       <ul class="nav-items">
         <li><a href="/#about">About</a></li>
         <li><a href="/#projects">Projects</a></li>
@@ -38,26 +38,24 @@
     <section id="hero" class="jumbotron load-hidden">
       <div class="container">
         <h1 class="hero-title">
-          Hello, I'm <span class="text-color-main">Clayton King</span>, a student
-          <br />
-          and an aspiring web developer.
+          Hello, I'm <span class="text-color-main">Clayton King</span>,
+            <br />
+            a computer science student.
         </h1>
         <p class="hero-cta">
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">
-            About Me
+          <a rel="noreferrer" class="cta-btn cta-btn--main" href="#about">
+            about me
           </a>
         </p>
       </div>
     </section>
 
-
     <a rel="noreferrer" href="https://github.com/clay-k0" target="_blank">
       <i class="github-icon fa fa-github fa-inverse load-hidden"></i>
     </a>
 
-    <hr>
+    <hr />
 
-    <!-- TODO: Add image of me -->
     <section id="about">
       <div class="container">
         <h2 class="section-title ">About Me</h2>
@@ -66,7 +64,7 @@
               <div class="about-wrapper__image ">
                 <img
                   alt="Profile Image"
-                  class="img-fluid rounded shadow-lg"
+                  class="img-fluid rounded-full shadow-lg"
                   height="400px"
                   width="400px"
                   src="./assets/me.jpg"
@@ -75,21 +73,30 @@
             </div>
             <div class="col-md-6 col-sm-12">
               <div class="about-wrapper__info ">
-                <p class="about-wrapper__info-text">
-                  Hey there! I'm Clayton, a 20 year old computer science student who is also learning web development. I'm a semester away from being a junior at Old Dominion University, and I'm passionate about learning new technologies and building projects that solve real-world problems. When it comes to libraries/frameworks, I mainly use React and Next.js, but I'm currently learning Svelte and SvelteKit. In my free time, I enjoy listening to music, collecting vinyl, spending time with family and friends, cycling outdoors, and coding. I'm always looking for new opportunities to learn and grow as a developer, so after taking a look at my work, feel free to email me!
+                <p class="about-wrapper__info-text mb-8">
+                  Hey there! I'm Clayton, or Clay, a 20-year-old
+                  computer science major and cybersecurity minor at Old
+                  Dominion University. In my free time, I'm learing Go, DevOps, and Linux. I'm
+                  passionate about learning new technologies and building
+                  things with code. Aside from programming, I enjoy listening to
+                  music, collecting vinyl, spending time with family and
+                  friends, and cycling outdoors. If you want to reach out or
+                  just chat, head to my <a class="link" href="#contact">contact</a> 
+                  section and send me an email; I'm always looking for
+                  opportunities to learn and grow as a developer.
                 </p>
 
                 <span class="d-flex mb-3">
+                  <a class="cta-btn cta-btn--main mx-2" href="#projects">
+                    view projects
+                  </a>
                   <a
                     rel="noreferrer"
                     target="_blank"
-                    class="cta-btn cta-btn--resume mx-2"
+                    class="cta-btn cta-btn--main mx-2"
                     href="assets/resume.pdf"
                   >
-                    View Resume
-                  </a>
-                  <a class="cta-btn cta-btn--projects mx-2" href="#projects">
-                    View Projects
+                    view resume
                   </a>
                 </span>
               </div>
@@ -102,50 +109,41 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text ">Projects</h2>
-          <!-- <h3 class="project-group-title section-title ">
-            <img class="react-icon" src="./assets/icons/react-icon.svg" alt="React Icon" />
-            React/Next.js
-          </h3> -->
-
+          <h2 class="section-title">Projects</h2>
           <!-- TODO: Add Project 1 -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text ">
-                <h3 class="project-wrapper__text-title">01 // Project 1</h3>
+                <h3 class="project-wrapper__text-title">Go // RSS Aggregator</h3>
                 <div>
-                  <p class="mb-4">
+                  <p class="mb-8">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                   </p>
-                  <!-- <h1 class="pt-3 pb-4">tech</h1> -->
-                  <div class="pb-4 pt-4">
-                    <img class="stack-icon" src="./assets/icons/react-icon.svg" alt="React Icon"/>
-                  </div>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  class="cta-btn cta-btn--hero cta-btn--live"
-                  href="!#"
-                >
-                  Visit Site
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
+                  class="cta-btn cta-btn--main"
                   href="https://github.com/clay-k0/"
                 >
-                  Code
-                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  view source
                 </a>
+                <!-- <a -->
+                <!--   rel="noreferrer" -->
+                <!--   target="_blank" -->
+                <!--   class="cta-btn text-color-main" -->
+                <!--   href="https://github.com/clay-k0/" -->
+                <!-- > -->
+                <!--   code -->
+                  <!-- <i class="fa fa-angle-right" aria-hidden="true"></i> -->
+                <!-- </a> -->
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image ">
                 <a
                   rel="noreferrer"
-                  href="!#"
+                  href="https://github.com/clay-k0/"
                   target="_blank"
                 >
                   <div
@@ -165,287 +163,59 @@
               </div>
             </div>
           </div>
-
-        <!-- <h3 class="project-group-title section-title ">
-          <img class="svelte-icon" src="./assets/icons/svelte-icon.png" alt="Svelte Icon"/>
-          svelte/sveltekit
-        </h3> -->
-
-        <!-- TODO: Add Project 2 -->
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text ">
-              <h3 class="project-wrapper__text-title">02 // Project 2</h3>
-              <div>
-                <p class="mb-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <!-- <h1 class="pb-4">tech</h1> -->
-                <div class="pb-4 pt-4">
-                  <img class="stack-icon p-1" src="./assets/icons/svelte-icon.png" alt="Svelte Icon"/>
+          <!-- TODO: Add Project 2 -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text ">
+                <h3 class="project-wrapper__text-title">Go // ?</h3>
+                <div>
+                  <p class="mb-8">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </div>
-              </div>
-              <a
-                rel="noreferrer"
-                target="_blank"
-                class="cta-btn cta-btn--hero"
-                href="!#"
-              >
-                Visit Site
-              </a>
-              <a
-                rel="noreferrer"
-                target="_blank"
-                class="cta-btn text-color-main"
-                href="https://github.com/clay-k0/"
-              >
-                Code
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image ">
-              <a
-                rel="noreferrer"
-                href="!#"
-                target="_blank"
-              >
-                <div
-                  data-tilt
-                  data-tilt-max="4"
-                  data-tilt-glare="true"
-                  data-tilt-max-glare="0.5"
-                  class="thumbnail rounded js-tilt"
-                >
-                  <img
-                    alt="Project Image"
-                    class="img-fluid"
-                    src="assets/project.jpg"
-                  />
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-      <hr />
-      <div>
-        <h1 class="section-title notable-mentions-title">Smaller Mentions</h1>
-        <ul class="notable-mentions-list">
-          <li>
-            <div class="card">
-              <a href="https://clay-k0.github.io/RoboFriends-App/" target="_blank" rel="noreferrer">
-                <img
-                class="card-image"
-                src="./assets/robo-friends-screenshot.png"
-                alt="Project Image"
-                /></a>
-                <h1>RoboFriends</h1>
-                <p>Basic react app w/ search feature</p>
-                <div class="flex justify-center items-center pb-3 pt-3">
-                  <img class="stack-icon" src="./assets/icons/react-icon.svg" alt="React Icon"/>
-                </div>
-              <div class="card-buttons">
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  class="notable-mentions-live-btn"
-                  href="https://clay-k0.github.io/RoboFriends-App/"
-                  >Visit Site</a
+                  class="cta-btn cta-btn--main"
+                  href="https://github.com/clay-k0"
                 >
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="notable-mentions-source-btn"
-                  href="https://github.com/clay-k0/RoboFriends-App"
-                  >
-                  Code
-                  <i class="fa fa-angle-right" aria-hidden="true"></i>
-                </a
-                >
+                  view source
+                </a>
+                <!-- <a -->
+                <!--   rel="noreferrer" -->
+                <!--   target="_blank" -->
+                <!--   class="cta-btn text-color-main" -->
+                <!--   href="https://github.com/clay-k0/" -->
+                <!-- > -->
+                <!--   code -->
+                <!--   <i class="fa fa-angle-right" aria-hidden="true"></i> -->
+                <!-- </a> -->
               </div>
             </div>
-          </li>
-          <li>
-            <div class="card">
-              <a href="https://clay-k0-ematchi.vercel.app/" target="_blank" rel="noreferrer">
-                <img
-                  class="card-image"
-                  src="./assets/ematchi-screenshot.png"
-                  alt="Project Image"
-                  />
-                </a>
-              <h1>Ematchi</h1>
-              <p>Svelte matching memory game</p>
-              <div class="flex justify-center items-center pb-3">
-                <img class="stack-icon p-1" src="./assets/icons/svelte-icon.png" alt="Svelte Icon"/>
-                <img class="stack-icon" src="./assets/icons/ts-icon.svg" alt="TypeScript Icon"/>
-              </div>
-              <div class="card-buttons">
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image ">
                 <a
                   rel="noreferrer"
-                  target="_blank"
-                  class="notable-mentions-live-btn"
-                  href="https://clay-k0-ematchi.vercel.app/"
-                  >Visit Site</a
-                >
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="notable-mentions-source-btn"
-                  href="https://github.com/clay-k0/ematchi"
-                >
-                Code
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-                <a href="https://memento-d6cac.web.app/" target="_blank" rel="noreferrer">
-                  <img
-                  class="card-image"
-                  src="./assets/memento-screenshot.png"
-                  alt="Project Image"
-                />
-              </a>
-              <h1>Memento</h1>
-              <p>React matching memory game</p>
-              <div class="flex justify-center items-center pb-3">
-                <img class="stack-icon" src="./assets/icons/react-icon.svg" alt="React Icon"/>
-                <img class="stack-icon p-2" src="./assets/icons/firebase-icon.svg" alt="Firebase Icon"/>
-              </div>
-              <div class="card-buttons">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="notable-mentions-live-btn"
-                  href="https://memento-d6cac.web.app/"
-                  >Visit Site</a
-                >
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="notable-mentions-source-btn"
-                  href="https://github.com/clay-k0/memento"
-                  >
-                  Code
-                  <i class="fa fa-angle-right" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <a href="https://clay-k0.netlify.app/">
-                <img
-                  class="card-image"
-                  src="./assets/portfolio-screenshot.png"
-                  alt="Project Image"
-                  />
-                </a>
-              <h1>Portfolio</h1>
-              <p>The site you're on</p>
-              <div class="flex justify-center items-center pb-3">
-                  <img class="stack-icon p-1" src="./assets/icons/html-icon.svg" alt="HTML Icon"/>
-                  <img class="stack-icon w-5" src="./assets/icons/sass-icon.png" alt="Sass Icon"/>
-                  <img class="stack-icon" src="./assets/icons/js-icon.svg" alt="JS Icon"/>
-              </div>
-              <div class="card-buttons">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="notable-mentions-live-btn"
-                  href="https://clay-k0-portfolio.netlify.app"
-                  >Visit Site</a
-                >
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="notable-mentions-source-btn"
-                  href="https://github.com/clay-k0/portfolio"
-                >
-                Code
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <a href="https://clay-k0.github.io/insta-quote/" target="_blank" rel="noreferrer">
-                <img
-                class="card-image"
-                src="./assets/insta-quote-screenshot.png"
-                alt="Project Image"
-                />
-              </a>
-              <h1>Instaquote</h1>
-              <p>React quote "generator"</p>
-              <div class="flex justify-center items-center pb-3 pt-3">
-                <img class="stack-icon" src="./assets/icons/react-icon.svg" alt="React Icon"/>
-              </div>
-              <div class="card-buttons">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="notable-mentions-live-btn"
-                  href="https://clay-k0.github.io/insta-quote/"
-                  >Visit Site</a
-                >
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="notable-mentions-source-btn"
-                  href="https://github.com/clay-k0/insta-quote"
-                  >
-                  Code
-                  <i class="fa fa-angle-right" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-          </li>
-          <!-- TODO: Add Project 6 -->
-          <li>
-            <div class="card">
-              <a href="http://clay-k0.github.io/" target="_blank" rel="noreferrer">
-                <img
-                  class="card-image"
-                  src="./assets/project.jpg"
-                  alt="Project Image"
-                  />
-                </a>
-              <h1>Project 6</h1>
-              <p>Lorem ipsum dolor sit amet</p>
-              <div class="flex justify-center items-center pb-3">
-                <img class="stack-icon w-5" src="./assets/icons/react-icon.svg" alt="React Icon"/>
-              </div>
-              <div class="card-buttons">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="notable-mentions-live-btn"
-                  href="!#"
-                  >Visit Site</a
-                >
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="notable-mentions-source-btn"
                   href="https://github.com/clay-k0/"
+                  target="_blank"
                 >
-                Code
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project.jpg"
+                    />
+                  </div>
                 </a>
               </div>
             </div>
-          </li>
-        </ul>
-      </div>
+          </div>
     </section>
-
 
     <section id="contact">
       <hr>
@@ -453,43 +223,28 @@
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper ">
           <p class="contact-wrapper__text">
-            Feel free to reach out to me at any time!
+            feel free to reach out to me at any time!
           </p>
           <a
             rel="noreferrer"
             target="_blank"
-            class="cta-btn cta-btn--resume"
+            class="cta-btn cta-btn--main"
             href="mailto:claytonking03@gmail.com"
-            >Email me</a
+            >email me</a
           >
         </div>
       </div>
     </section>
-
-    <hr>
 
     <footer class="footer navbar-static-bottom">
       <div class="container">
         <a rel="noreferrer" href="#top" class="back-to-top">
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
-        <!-- <div class="social-links">
-          <a
-            rel="noreferrer"
-            href="https://www.linkedin.com/in/clayton-king-8707a7270/"
-            target="_blank"
-          >
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="https://github.com/clay-k0" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div> -->
-
         <hr />
 
         <p class="footer__text">
-          © 2023
+          © 2024 -
           <a rel="noreferrer" href="https://github.com/clay-k0" target="_blank"
             >Clayton King</a
           >
@@ -497,19 +252,19 @@
       </div>
     </footer>
 
-    <script defer type="module" src="index.js"></script>
-    <script>
-      window.addEventListener('scroll', function() {
-        var navbar = document.querySelector('.navbar');
-        var scrollPosition = window.scrollY || window.pageYOffset;
-
-        if (scrollPosition > 0) {
-          navbar.classList.add('navbar-solid');
-        } else {
-          navbar.classList.remove('navbar-solid');
-        }
-      });
-    </script>
+    <!-- <script defer type="module" src="index.js"></script> -->
+    <!-- <script> -->
+    <!--   window.addEventListener('scroll', function() { -->
+    <!--     var navbar = document.querySelector('.navbar'); -->
+    <!--     var scrollPosition = window.scrollY || window.pageYOffset; -->
+    <!---->
+    <!--     if (scrollPosition > 0) { -->
+    <!--       navbar.classList.add('navbar-solid'); -->
+    <!--     } else { -->
+    <!--       navbar.classList.remove('navbar-solid'); -->
+    <!--     } -->
+    <!--   }); -->
+    <!-- </script> -->
   </body>
 </html>
 

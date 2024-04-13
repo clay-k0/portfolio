@@ -1,9 +1,9 @@
 html {
   font-size: 62.5%;
 
-  &.sr .load-hidden {
-    visibility: hidden;
-  }
+  // &.sr .load-hidden {
+  //   visibility: hidden;
+  // }
 }
 
 body {
@@ -13,12 +13,16 @@ body {
   background: $background-color;
 }
 
+hr {
+  color: #907e70;
+}
+
 *,
 html,
 body {
   scroll-behavior: smooth !important;
 
   &::selection {
-    background: #58688b4d;
+    background: #655b53;
   }
 }

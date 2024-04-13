@@ -1,10 +1,10 @@
 #projects {
   background-color: $background-color;
-  color: $header-text;
   padding-top: 13rem;
+  padding-bottom: 0rem;
 
   p {
-    color: #606060;
+    color: #907e70;
     pointer-events: none;
     font-size: 1.76rem;
   }
@@ -13,46 +13,13 @@
     pointer-events: none;
   }
 
-  hr {
-    margin: 1rem auto;
-    border: 0;
-    border-top: 2px solid #616161b6;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-  }
-
-  // .react-icon {
-  //   width: 3.8rem;
-  //   margin-right: 1rem;
-  //   vertical-align: middle;
-  // }
-
-  // .svelte-icon {
-  //   width: 2rem;
-  //   margin-right: 1.2rem;
-  //   vertical-align: middle;
-  // }
-
-  .stack-icon {
-    width: 4.2rem;
-    margin-right: 1rem;
-    margin-bottom: 1.5rem;
-    // transition: all 0.2s ease-in-out;
-    // opacity: 0.8;
-
-    // &:hover {
-    //   transform: scale(1.02);
-    //   opacity: 1;
-    // }
-  }
-
   @include respond(tab-land) {
     margin-top: 0;
     padding-top: 5rem;
   }
 
   .project-wrapper {
-    margin-bottom: 15rem;
+    margin-bottom: 2rem;
 
     @include respond(phone) {
       margin-bottom: 0rem;
@@ -82,6 +49,8 @@
         margin-bottom: 1.8rem;
         font-size: $mid-font-size;
         pointer-events: none;
+        color: $light-grey;
+
 
         @include respond(phone) {
           font-size: 2rem;
@@ -136,6 +105,7 @@
     padding-bottom: 5rem;
     text-align: left;
     display: flex;
+    color: #ddc7a1 !important;
 
     margin: 0px;
     margin-bottom: 4.5rem;
