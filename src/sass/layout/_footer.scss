@@ -64,12 +64,16 @@
 
 .back-to-top i {
   color: $header-text;
-  // color: #f8d2c9;
   margin: 1rem 0 $default-font-size;
   transition: all 0.2s ease-in;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
 
   &:hover {
     transform: translateY(-2px);
-    opacity: 0.7;
+    color: $accent-color;
+    // opacity: 0.7;
   }
 }
+

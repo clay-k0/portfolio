@@ -106,7 +106,7 @@
   color: $accent-color;
   background: transparent;
   padding: 1rem 1.5rem;
-  border-radius: 0.2rem;
+  border-radius: 1rem;
   border: $accent-color solid 2px;
 
   &::after {
@@ -117,6 +117,7 @@
     color: #a89983;
     border: #a89983 solid 2px;
     text-decoration: none;
+    border-radius: 2.5rem;
 
     &::after {
       width: 100%;
