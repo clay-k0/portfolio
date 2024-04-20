@@ -6,7 +6,7 @@
   height: 80px;
   // background-color: #3c3735;
   background-color: $navbar-color;
-  border-bottom: #655b53 solid 1.5px;
+  // border-bottom: #655b53 solid 1.5px;
   z-index: 999;
   transition: background-color 0.3s ease-in-out;
   display: flex;
@@ -24,33 +24,34 @@
     margin-right: 3.3rem;
 
     & a {
-      color: $header-text;
+      color: $foreground-color;
       text-decoration: none;
       padding: 10px;
       transition: color 0.3s ease-in-out;
 
       &:hover {
-        color: $accent-color;
+        text-decoration: underline;
       }
     }
   }
 }
 
-.navbar.navbar-solid {
-  background-color: #3c3836 !important;
-  border-bottom: #32302e solid 2px;
-}
+// .navbar.navbar-solid {
+//   background-color: #3c3836 !important;
+//   border-bottom: #32302e solid 2px;
+// }
 
 .site-logo {
   display: block;
   padding: 10px;
   text-decoration: none;
-  color: $header-text;
+  color: $foreground-color;
   font-size: 3.5em;
   margin-left: 10px;
 
   &:hover {
-    color: $accent-color;
+    color: $foreground-color;
+    text-decoration: underline;
   }
 }
 
@@ -66,7 +67,7 @@
   transition: transform 0.2s ease-in-out;
 
   &:hover {
-    transform: translateY(-4px);
+    transform: translateY(-7px);
   }
 }
 
