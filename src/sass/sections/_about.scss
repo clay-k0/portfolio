@@ -21,7 +21,6 @@
   }
 
   p {
-    // color: $foreground-color;
     pointer-events: none;
     font-size: 1.8rem !important;
   }
@@ -31,7 +30,8 @@
   }
 
   .link {
-    color: #c5b18d;
+    // color: $accent-color;
+    color: $foreground-color;
     pointer-events: all;
 
     &:hover {
